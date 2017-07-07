@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SmsAndCallClient
+namespace MatthiWare.SmsAndCallClient
 {
     static class Program
     {

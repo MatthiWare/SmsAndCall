@@ -1,4 +1,4 @@
-﻿namespace SmsAndCallClient
+﻿namespace MatthiWare.SmsAndCallClient
 {
     partial class MainForm
     {

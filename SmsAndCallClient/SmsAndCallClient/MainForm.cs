@@ -1,8 +1,8 @@
-﻿using SmsAndCallClient.Api;
+﻿using MatthiWare.SmsAndCallClient.Api;
 using System;
 using System.Windows.Forms;
 
-namespace SmsAndCallClient
+namespace MatthiWare.SmsAndCallClient
 {
     public partial class MainForm : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace SmsAndCallClient.Api
+﻿namespace MatthiWare.SmsAndCallClient.Api
 {
     public static class Credentials
     {

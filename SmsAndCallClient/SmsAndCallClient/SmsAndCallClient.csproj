@@ -7,7 +7,7 @@
     <ProjectGuid>{8E6D2D44-4833-4CB2-8A29-CEDA508DF18A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SmsAndCallClient</RootNamespace>
+    <RootNamespace>MatthiWare.SmsAndCallClient</RootNamespace>
     <AssemblyName>SmsAndCallClient</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

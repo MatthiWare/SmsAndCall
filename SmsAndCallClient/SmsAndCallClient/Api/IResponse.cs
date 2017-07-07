@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace SmsAndCallClient.Api
+namespace MatthiWare.SmsAndCallClient.Api
 {
     public interface IResponse
     {
