@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Twilio.TwiML;
 
 namespace MatthiWare.SmsAndCallClient
 {
@@ -11,6 +12,8 @@ namespace MatthiWare.SmsAndCallClient
         [STAThread]
         static void Main()
         {
+            Console.WriteLine(new VoiceResponse().Say("{body}", language: "en", voice: "alice").Hangup());
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
