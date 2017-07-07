@@ -12,7 +12,10 @@ namespace MatthiWare.SmsAndCallClient.Api
 {
     public class TwilioWrapperClient : IClient
     {
-        private string m_sid, m_auth;
+        /// <summary>
+        /// the authentication items
+        /// </summary>
+        private readonly string m_sid, m_auth;
 
         public TwilioWrapperClient(string sid, string auth)
         {
