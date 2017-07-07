@@ -140,7 +140,7 @@
             this.btnText.Name = "btnText";
             this.btnText.Size = new System.Drawing.Size(141, 23);
             this.btnText.TabIndex = 10;
-            this.btnText.Text = "Sms | Text message";
+            this.btnText.Text = "Sms";
             this.btnText.UseVisualStyleBackColor = true;
             this.btnText.Click += new System.EventHandler(this.btnText_Click);
             // 

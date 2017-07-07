@@ -1,6 +1,6 @@
 ﻿namespace MatthiWare.SmsAndCallClient.Api
 {
-    public static class Credentials
+    internal static class Credentials
     {
         internal const string TWILIO_ACC_SID = "";
         internal const string TWILIO_AUTH_TOKEN = "";
