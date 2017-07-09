@@ -4,6 +4,6 @@
     {
         internal const string TWILIO_ACC_SID = "your sid token";
         internal const string TWILIO_AUTH_TOKEN = "secret";
-        internal const string CLICKATELL_API_KEY = "secret";
+        internal const string CLICKATELL_API_KEY = "my_clickatell_api_key";
     }
 }

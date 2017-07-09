@@ -17,7 +17,7 @@ namespace MatthiWare.SmsAndCallClient
 
         private void LoadAPIs()
         {
-            //cbApis.Items.Add(new ClickatellWrapperClient(Credentials.CLICKATELL_API_KEY));
+            cbApis.Items.Add(new ClickatellWrapperClient(Credentials.CLICKATELL_API_KEY));
             cbApis.Items.Add(new TwilioWrapperClient(Credentials.TWILIO_ACC_SID, Credentials.TWILIO_AUTH_TOKEN));
         }
 

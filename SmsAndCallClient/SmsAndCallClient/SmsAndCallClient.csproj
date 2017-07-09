@@ -66,6 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\ClickatellWrapperClient.cs" />
     <Compile Include="Api\Credentials.cs" />
     <Compile Include="Api\IClient.cs" />
     <Compile Include="Api\IResponse.cs" />
