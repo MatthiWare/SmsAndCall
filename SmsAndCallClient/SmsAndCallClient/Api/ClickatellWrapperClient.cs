@@ -32,6 +32,8 @@ namespace MatthiWare.SmsAndCallClient.Api
         public void Init()
         {
             IsInitialized = true;
+
+            ServicePointManager.SecurityProtocol |= (SecurityProtocolType)3072;
         }
 
         public override string ToString()
